@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">				
+				<section 
+				data-background-color="rgba(224, 153, 67, 0.88)"
+				data-background-transition="convex">Slide 1</section>
+				<section>
+					<section data-background-color="rgba(42, 22, 240, 0.88)">Vertical 1</section>
+					<section data-background-color="rgba(145, 12, 147, 0.88)">Vertical 2</section>
+					<section data-background-color="rgba(225, 0, 100, 0.08)">Vertical 3</section>
+				</section>
+				<section data-background-color="rgba(101, 185, 224, 0.88)">Slide 2</section>
+				<section data-transition="fade-in slide-out">Slide 3</section>
+				<section data-background-color="rgba(213, 56, 224, 0.88)">Slide 4</section>
+				<section data-transition="zoom">
+					<h2>This slide will override the presentation transition and zoom!</h2>
+				</section>
+				<section data-transition="convex">
+					<h2>This slide will override the presentation transition and zoom!</h2>
+				</section>
+				<section data-transition-speed="fast">
+					<h2>Choose from three transition speeds: default, fast or slow!</h2>
+				</section>
+				<section data-transition="concave">
+					<h2>This slide will override the presentation transition and zoom!</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
