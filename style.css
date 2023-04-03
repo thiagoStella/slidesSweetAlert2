@@ -1,0 +1,41 @@
+
+titulo{
+    background-image: url("images/wallpaper.jpg");
+}
+p {
+    color: rgb(0, 0, 0);
+}
+.grupo {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition-duration: 0.4s;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover {
+    scale: 1.2;
+    color: white;
+    border: none;
+}
+.botao2:hover {  
+    background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(255,255,255,1) 110%);
+    border: none;
+}
+
+.botao13{
+    color: white;
+}
+.botao13:hover {
+    scale: 1.5;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
